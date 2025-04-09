@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "coremods",
+    "version": "5.2.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coremods-5.2.6.jar",
+          "url": "coremods-5.2.6.jar",
+          "size": 31941,
+          "sha512": "7a7bce3ee350ceb05176f48ff3563d1eb230d09abeaaabb7a72f2f71678574b0c9c20a26590c92f33669e9f44306fd90cb7d81514fe9afeee75efb080893b28d",
+          "sha256": "2fd763b690e701eda11b7099ddbc17b2a4e2dd0969902793da78638ca8c8a8c8",
+          "sha1": "9528a9f2133ec5284122ac3d62cfff8bc8c6bba0",
+          "md5": "998accaddc7f9a050e982a0c0a90ac4e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.openjdk.nashorn",
+          "module": "nashorn-core",
+          "version": {
+            "requires": "15.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coremods-5.2.6.jar",
+          "url": "coremods-5.2.6.jar",
+          "size": 31941,
+          "sha512": "7a7bce3ee350ceb05176f48ff3563d1eb230d09abeaaabb7a72f2f71678574b0c9c20a26590c92f33669e9f44306fd90cb7d81514fe9afeee75efb080893b28d",
+          "sha256": "2fd763b690e701eda11b7099ddbc17b2a4e2dd0969902793da78638ca8c8a8c8",
+          "sha1": "9528a9f2133ec5284122ac3d62cfff8bc8c6bba0",
+          "md5": "998accaddc7f9a050e982a0c0a90ac4e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "coremods-5.2.6-sources.jar",
+          "url": "coremods-5.2.6-sources.jar",
+          "size": 20681,
+          "sha512": "75b799c1d90db07d6f75233301cff9636b069fc5dc98780a29953309e47033669cdeaa66a44245e6d37e09a4059eb54222e60c770a64b1fad57ff8e51995b704",
+          "sha256": "4ee6059e269c72a852f35077b21a44d6c6d041793ec8c5a6fcd8fc69674490ae",
+          "sha1": "d2bc5a697e15892d3b615c9056c705deb987814e",
+          "md5": "6f905547ccb4fb0971c3f1f8031fa022"
+        }
+      ]
+    }
+  ]
+}

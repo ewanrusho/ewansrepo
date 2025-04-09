@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "mclanguage",
+    "version": "1.21.4-54.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mclanguage-1.21.4-54.1.2.jar",
+          "url": "mclanguage-1.21.4-54.1.2.jar",
+          "size": 4921,
+          "sha512": "92bb318d56eb3bebc2c98dc7ff8f7815fa4eb984028eba5e7cdc911ced8f59b7cfaa7b8f39ce7d186700c5a22b209a20a0041ba457059f8a8e5294936258ff0b",
+          "sha256": "d79d0ff3b55ac0551d2a4e39b523b883503587e260ac76a3e4e39b63b7bfe05f",
+          "sha1": "02fdca7b32807fff650baf4b2ee8b48adb8d8604",
+          "md5": "bbf0a9991b944d428e0d0a42d16ebf1f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "fmlloader",
+          "version": {
+            "requires": "1.21.4-54.1.2"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "fmlcore",
+          "version": {
+            "requires": "1.21.4-54.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mclanguage-1.21.4-54.1.2.jar",
+          "url": "mclanguage-1.21.4-54.1.2.jar",
+          "size": 4921,
+          "sha512": "92bb318d56eb3bebc2c98dc7ff8f7815fa4eb984028eba5e7cdc911ced8f59b7cfaa7b8f39ce7d186700c5a22b209a20a0041ba457059f8a8e5294936258ff0b",
+          "sha256": "d79d0ff3b55ac0551d2a4e39b523b883503587e260ac76a3e4e39b63b7bfe05f",
+          "sha1": "02fdca7b32807fff650baf4b2ee8b48adb8d8604",
+          "md5": "bbf0a9991b944d428e0d0a42d16ebf1f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mclanguage-1.21.4-54.1.2-sources.jar",
+          "url": "mclanguage-1.21.4-54.1.2-sources.jar",
+          "size": 2762,
+          "sha512": "ba0231ca728efef027f2e34af10a799dbaa609fe7c1f28718b92f1704724d24d19619f8456a608d92025b81b56d7f7a6e76d9a7df314f67b3d2ea60c0623f66b",
+          "sha256": "b02f20204e722e6f590aed38e4bdbf00ab65114ae82551c3d0488f24a40f88f4",
+          "sha1": "0a11e14ea348762ea84726a4725dc36093ee0568",
+          "md5": "c2a22201bc21e319a2e618bd6647acca"
+        }
+      ]
+    }
+  ]
+}

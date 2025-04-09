@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "lowcodelanguage",
+    "version": "1.21.4-54.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lowcodelanguage-1.21.4-54.1.2.jar",
+          "url": "lowcodelanguage-1.21.4-54.1.2.jar",
+          "size": 7182,
+          "sha512": "54ef4b20cb515e4c0475fc4a9d687d84dea4038f7d51f3f7ccb96a4d6a5183e4a92c61b1983f0f776b24f4da43704c83dd504e216c09f64b44f547a03c794e35",
+          "sha256": "017bf10fe31a78a73b3b9d172efb8c287b995af315916aba18969d62e6b289df",
+          "sha1": "d66d6f70542c1a3fca3b816008c47cb354d97205",
+          "md5": "f73588f39ddd8ace41f31d767d10dc7d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "fmlloader",
+          "version": {
+            "requires": "1.21.4-54.1.2"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "fmlcore",
+          "version": {
+            "requires": "1.21.4-54.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lowcodelanguage-1.21.4-54.1.2.jar",
+          "url": "lowcodelanguage-1.21.4-54.1.2.jar",
+          "size": 7182,
+          "sha512": "54ef4b20cb515e4c0475fc4a9d687d84dea4038f7d51f3f7ccb96a4d6a5183e4a92c61b1983f0f776b24f4da43704c83dd504e216c09f64b44f547a03c794e35",
+          "sha256": "017bf10fe31a78a73b3b9d172efb8c287b995af315916aba18969d62e6b289df",
+          "sha1": "d66d6f70542c1a3fca3b816008c47cb354d97205",
+          "md5": "f73588f39ddd8ace41f31d767d10dc7d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lowcodelanguage-1.21.4-54.1.2-sources.jar",
+          "url": "lowcodelanguage-1.21.4-54.1.2-sources.jar",
+          "size": 3473,
+          "sha512": "e07a6ea84211fff8a3ae7cb3ccc707ef228c96cfab4606c5a7f562a9aa081e553068ef843706608ab298916480720d03c3e1583850b1b2467f8ad5f284a84ae9",
+          "sha256": "3edfb88be97c715733235d6b8e4f0a51d923b4813722a1fd3e7211d6be7db2b2",
+          "sha1": "6d3ea418820223e50c780e4f380be1dbd68b4947",
+          "md5": "b62e097fdf8d0c58f65cec4322ff72eb"
+        }
+      ]
+    }
+  ]
+}

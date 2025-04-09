@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "javafmllanguage",
+    "version": "1.21.4-54.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "javafmllanguage-1.21.4-54.1.2.jar",
+          "url": "javafmllanguage-1.21.4-54.1.2.jar",
+          "size": 19229,
+          "sha512": "6db48c0d838e08057d67e8d023730fa1fb5f322b6e08995ebab835bf85c2d379506d9f5f02121ba52498b903008f325c6907af2bdcc9fdbf03cf718c47487877",
+          "sha256": "b15619abe77340f51e73b8c55e1c3090a261d97abb2cad8e3066781a868c04a7",
+          "sha1": "48ff5c2b77e893d68312e8691d18643c40ddf675",
+          "md5": "f11c349f1b1e8f0a34b00bb2cb83d860"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "fmlloader",
+          "version": {
+            "requires": "1.21.4-54.1.2"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "fmlcore",
+          "version": {
+            "requires": "1.21.4-54.1.2"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "unsafe",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "securemodules",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "javafmllanguage-1.21.4-54.1.2.jar",
+          "url": "javafmllanguage-1.21.4-54.1.2.jar",
+          "size": 19229,
+          "sha512": "6db48c0d838e08057d67e8d023730fa1fb5f322b6e08995ebab835bf85c2d379506d9f5f02121ba52498b903008f325c6907af2bdcc9fdbf03cf718c47487877",
+          "sha256": "b15619abe77340f51e73b8c55e1c3090a261d97abb2cad8e3066781a868c04a7",
+          "sha1": "48ff5c2b77e893d68312e8691d18643c40ddf675",
+          "md5": "f11c349f1b1e8f0a34b00bb2cb83d860"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "javafmllanguage-1.21.4-54.1.2-sources.jar",
+          "url": "javafmllanguage-1.21.4-54.1.2-sources.jar",
+          "size": 10070,
+          "sha512": "911932959cd62cf0cb320ce3f9624176df9694300b4f2149a57b1e643ea2180735cfce06b10b768e576d9c27ce67b5bb7975129955c9a2b4e3e9e0c1a75e5c77",
+          "sha256": "afc6a592cf3c9132f6d86b7752d53186eac43031e3afc1cdf2590c7ad567ab65",
+          "sha1": "8c29b905555a1f8d024d413a6f95db795b22fa17",
+          "md5": "03a7a2cedb901c44eba6332c7a151d01"
+        }
+      ]
+    }
+  ]
+}

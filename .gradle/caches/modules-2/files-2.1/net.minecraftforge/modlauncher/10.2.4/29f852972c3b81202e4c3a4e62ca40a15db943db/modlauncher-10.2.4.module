@@ -1,0 +1,212 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "modlauncher",
+    "version": "10.2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "modlauncher-10.2.4.jar",
+          "url": "modlauncher-10.2.4.jar",
+          "size": 129138,
+          "sha512": "8f83f6e859119e97f669fcf0eb3f6e562f93715a7bd4ad6dc4e4835570e6d0c1400fef546481c182d50e91b6e990acbf87d93a0915d3a3f36db42bc2f6fb8fde",
+          "sha256": "fd5b1bec9c1700052959dd2a3a934496c68cd7c0ecb18aed4d1fba784122a134",
+          "sha1": "781dde4dcb54a7bd4f66b256d47e82710939b1bf",
+          "md5": "0c1f1d647daf381e4b80265dd85640de"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.minecraftforge",
+          "name": "modlauncher",
+          "version": "10.2.4"
+        },
+        {
+          "group": "cpw.mods",
+          "name": "modlauncher",
+          "version": "10.2.4"
+        },
+        {
+          "group": "net.minecraftforge",
+          "name": "ModLauncher",
+          "version": "10.2.4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "securemodules",
+          "version": {
+            "requires": "2.2.14"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.22.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.22.1"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "bootstrap-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "modlauncher-10.2.4.jar",
+          "url": "modlauncher-10.2.4.jar",
+          "size": 129138,
+          "sha512": "8f83f6e859119e97f669fcf0eb3f6e562f93715a7bd4ad6dc4e4835570e6d0c1400fef546481c182d50e91b6e990acbf87d93a0915d3a3f36db42bc2f6fb8fde",
+          "sha256": "fd5b1bec9c1700052959dd2a3a934496c68cd7c0ecb18aed4d1fba784122a134",
+          "sha1": "781dde4dcb54a7bd4f66b256d47e82710939b1bf",
+          "md5": "0c1f1d647daf381e4b80265dd85640de"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.minecraftforge",
+          "name": "modlauncher",
+          "version": "10.2.4"
+        },
+        {
+          "group": "cpw.mods",
+          "name": "modlauncher",
+          "version": "10.2.4"
+        },
+        {
+          "group": "net.minecraftforge",
+          "name": "ModLauncher",
+          "version": "10.2.4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "modlauncher-10.2.4-sources.jar",
+          "url": "modlauncher-10.2.4-sources.jar",
+          "size": 58932,
+          "sha512": "431d7f5639e42de291d74ab7a6989b42ae7f8bafd33378bc8f3e9556447b88ebd7420ef8c15a0ed93f4dc29cfaf761d0ff13852ae6fee6fa6a44589216e0278e",
+          "sha256": "33da916543c6f5b8664bb039b6ebb957730e3a4417c537cb5cf6a75fcc54fc93",
+          "sha1": "df48f29afeb5cf9034523c0bfe0cf3f990750cbb",
+          "md5": "c838faf701e08784a9eb52b6db0fdd8e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.minecraftforge",
+          "name": "modlauncher",
+          "version": "10.2.4"
+        },
+        {
+          "group": "cpw.mods",
+          "name": "modlauncher",
+          "version": "10.2.4"
+        },
+        {
+          "group": "net.minecraftforge",
+          "name": "ModLauncher",
+          "version": "10.2.4"
+        }
+      ]
+    }
+  ]
+}

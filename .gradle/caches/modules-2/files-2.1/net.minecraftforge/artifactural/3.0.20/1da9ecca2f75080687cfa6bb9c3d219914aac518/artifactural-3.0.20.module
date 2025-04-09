@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "artifactural",
+    "version": "3.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "artifactural-3.0.20.jar",
+          "url": "artifactural-3.0.20.jar",
+          "size": 63169,
+          "sha512": "297ca4d9bdd428c73001af1e4f9044dacc07d450be31f6be94471cb38930688f0321ffc0bffb9956eb8d02917adb80138990ff837e971906a8a9a17507a4535e",
+          "sha256": "fea3460bbc9381e80d7b6ae62267cf2255d33488b8a76d8e0e74946edc2d71cf",
+          "sha1": "c475266f1fac4a80a6bd195fbcc6c5c7720441bd",
+          "md5": "0af69088c7acb07e4f038d15dbf04403"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.gradleplugins",
+          "module": "gradle-api",
+          "version": {
+            "requires": "8.4"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1-jre"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "unsafe",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "artifactural-3.0.20.jar",
+          "url": "artifactural-3.0.20.jar",
+          "size": 63169,
+          "sha512": "297ca4d9bdd428c73001af1e4f9044dacc07d450be31f6be94471cb38930688f0321ffc0bffb9956eb8d02917adb80138990ff837e971906a8a9a17507a4535e",
+          "sha256": "fea3460bbc9381e80d7b6ae62267cf2255d33488b8a76d8e0e74946edc2d71cf",
+          "sha1": "c475266f1fac4a80a6bd195fbcc6c5c7720441bd",
+          "md5": "0af69088c7acb07e4f038d15dbf04403"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "artifactural-3.0.20-sources.jar",
+          "url": "artifactural-3.0.20-sources.jar",
+          "size": 36162,
+          "sha512": "6bab01827431534836fd42b8995d1529f2541f2a071854a4dc3a3554e030ccde8a2ac92467a3be0642e91ba6108636d7aacf2071e1fa34021a6b68952cdfd91c",
+          "sha256": "c64b28e0c3f295fe19fdfb16d1e1b5a4a94ca666b94c5dff9eff30ca57478053",
+          "sha1": "4a7c22668d9d734a7e5163b1f05de28037e7bffb",
+          "md5": "d6da68d9b5a3e626fb5f65e5d88fb59f"
+        }
+      ]
+    }
+  ]
+}

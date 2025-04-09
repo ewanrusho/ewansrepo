@@ -1,0 +1,175 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "forgespi",
+    "version": "7.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "mergetool-api",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "forgespi-7.1.5.jar",
+          "url": "forgespi-7.1.5.jar",
+          "size": 31098,
+          "sha512": "2ecf0cd6edd3ad8d7becb6c6deea39684e9df219a6476367c5362d4cd4fec042f6a633efcef54d9686a1e9cd5f4900654799fd844e7cd4ff5e0ad1a41a61d754",
+          "sha256": "6dc1df5e18479dce2d7d65a8b706e22f70448ee79fa9123825b459b458dabcb7",
+          "sha1": "c01beea469b66cf787614239b7e0f791329b3816",
+          "md5": "bca6569294ec2817051f915ea171c3ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "securemodules",
+          "version": {
+            "requires": "2.2.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "modlauncher",
+          "version": {
+            "requires": "10.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "mergetool-api",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "forgespi-7.1.5.jar",
+          "url": "forgespi-7.1.5.jar",
+          "size": 31098,
+          "sha512": "2ecf0cd6edd3ad8d7becb6c6deea39684e9df219a6476367c5362d4cd4fec042f6a633efcef54d9686a1e9cd5f4900654799fd844e7cd4ff5e0ad1a41a61d754",
+          "sha256": "6dc1df5e18479dce2d7d65a8b706e22f70448ee79fa9123825b459b458dabcb7",
+          "sha1": "c01beea469b66cf787614239b7e0f791329b3816",
+          "md5": "bca6569294ec2817051f915ea171c3ea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "forgespi-7.1.5-sources.jar",
+          "url": "forgespi-7.1.5-sources.jar",
+          "size": 15454,
+          "sha512": "9e7ffdfa45b4698fb7b053532da7c4816476fc41b6edc1b97f5e9d802a4762b65a56dbf5ce20f6d521d4e4718a9cd5b876be699c36daeebdb80ec9d913a8dead",
+          "sha256": "486295315159e890ff723feed6894d1c92a59f740f09324ebf7e694506ce5a85",
+          "sha1": "257e15b40d0dd170e7c02a6e13e6db851ac9fe9e",
+          "md5": "dee7c8738a067c73c283c4c1c37cae22"
+        }
+      ]
+    }
+  ]
+}
