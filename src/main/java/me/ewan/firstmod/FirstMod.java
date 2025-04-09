@@ -40,6 +40,7 @@ public class FirstMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        System.out.println("hello world!");
     }
 
     // Add the example block item to the building blocks tab
